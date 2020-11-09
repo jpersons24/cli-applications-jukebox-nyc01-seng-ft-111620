@@ -29,12 +29,12 @@ def play(array)
   puts "Please enter a song name or number:"
   user_input = gets.strip
 
-  array.include? do |value|
-    if value == user_input
-      puts "Playing #{value}"
-    else
-      puts "Invalid input, please try again"
-    end
+  if array.include?(user_input)
+    puts "Playing <song name>"
+  else
+    puts "Invalid input, please try again"
+    puts "Please enter a song name or number:"
+    user_input = gets.strip
   end
 end
 
