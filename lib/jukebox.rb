@@ -35,7 +35,7 @@ def play(array)
   elsif number < 0 && array.include?(user_input)
     index = array.index(input)
     puts "Playing #{array[index]}"
-  elsif number >= 0 array[number] != nil
+  elsif number >= 0 && array[number] != nil
     puts "Playing #{array[number]}"
   else
     puts "Invalid input, please try again"
