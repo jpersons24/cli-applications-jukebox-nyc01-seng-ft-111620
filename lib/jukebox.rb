@@ -25,6 +25,11 @@ def list(array)
   end
 end
 
+def play(array)
+  puts "Please enter a song name or number:"
+  user_input = gets.strip
+end
+
 # def say_hello(name)
 #   "Hi #{name}!"
 # end
