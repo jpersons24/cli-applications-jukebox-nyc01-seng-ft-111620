@@ -43,6 +43,10 @@ def play(array)
 
 end
 
+def exit_jukebox
+  puts "Goodbye"
+end
+
 # def say_hello(name)
 #   "Hi #{name}!"
 # end
