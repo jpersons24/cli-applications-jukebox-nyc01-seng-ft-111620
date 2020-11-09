@@ -32,6 +32,8 @@ def play(array)
   array.any? do |value|
     if value == user_input
       puts "Playing #{value}"
+    else
+      puts "Invalid input, please try again"
     end
   end
 end
