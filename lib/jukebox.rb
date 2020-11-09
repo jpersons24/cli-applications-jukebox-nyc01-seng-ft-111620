@@ -28,7 +28,7 @@ end
 def play(array)
   puts "Please enter a song name or number:"
   user_input = gets.strip
-  number = input.to_i - 1
+  number = user_input.to_i - 1
 
   if input == "exit"
     exit_jukebox
