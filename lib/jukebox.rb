@@ -33,7 +33,7 @@ def play(array)
   if user_input == "exit"
     exit_jukebox
   elsif number < 0 && array.include?(user_input)
-    index = array.index(input)
+    index = array.index(user_input)
     puts "Playing #{array[index]}"
   elsif number >= 0 && array[number] != nil
     puts "Playing #{array[number]}"
