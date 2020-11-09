@@ -33,8 +33,6 @@ def play(array)
     puts "Playing <song name>"
   else
     puts "Invalid input, please try again"
-    puts "Please enter a song name or number:"
-    user_input = gets.strip
   end
 end
 
