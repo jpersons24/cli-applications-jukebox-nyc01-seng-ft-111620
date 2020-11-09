@@ -47,6 +47,22 @@ def exit_jukebox
   puts "Goodbye"
 end
 
+def run(array)
+  puts "Please enter a command"
+  command = gets.strip
+
+  until command == "exit"
+    if command == "list"
+      list(array)
+    elsif command == "play"
+      play(array)
+    elsif command == "help"
+      help
+  end
+  exit_jukebox
+
+end
+
 # def say_hello(name)
 #   "Hi #{name}!"
 # end
