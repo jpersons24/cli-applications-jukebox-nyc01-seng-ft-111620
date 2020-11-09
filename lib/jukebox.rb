@@ -30,7 +30,7 @@ def play(array)
   user_input = gets.strip
   number = user_input.to_i - 1
 
-  if input == "exit"
+  if user_input == "exit"
     exit_jukebox
   elsif number < 0 && array.include?(user_input)
     index = array.index(input)
