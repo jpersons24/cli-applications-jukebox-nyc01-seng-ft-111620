@@ -59,8 +59,9 @@ def run(array)
     elsif command == "help"
       help
     end
+    exit_jukebox
   end
-  exit_jukebox
+  # exit_jukebox
 
 end
 
